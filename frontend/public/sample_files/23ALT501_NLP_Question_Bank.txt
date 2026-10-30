@@ -1,0 +1,35 @@
+V.S.B. ENGINEERING COLLEGE, KARUR
+(An Autonomous Institution, Affiliated to Anna University, Chennai)
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING (AI & ML)
+23ALT501 - NATURAL LANGUAGE PROCESSING (Regulations 2023)
+QUESTION BANK REPOSITORY (INTERNAL TEST - II & UNIVERSITY EXAMS)
+
+PART - A (2 Marks Questions)
+1. Analyze the importance of grammar rules in English language processing. (CO3) [AN]
+2. Compare Chomsky Normal Form and standard CFG representations. (CO3) [AN]
+3. Analyze how First-Order Logic (FOL) represents sentence meaning. (CO4) [AN]
+4. Compare First-Order Logic and Description Logics. (CO4) [AN]
+5. Evaluate the significance of the Penn Treebank in NLP research. (CO5) [EV]
+6. Define Regular Expressions and explain their role in text tokenization. (CO1) [RE]
+7. State the principle of Maximum Likelihood Estimation in N-gram models. (CO1) [RE]
+8. Differentiate between Stemming and Lemmatization with examples. (CO2) [UN]
+9. Explain the concept of Hidden Markov Models (HMM) for POS tagging. (CO2) [UN]
+10. What is Word Sense Disambiguation (WSD)? Mention two approaches. (CO4) [UN]
+11. Define Perplexity as an evaluation metric for language modeling. (CO1) [RE]
+12. Illustrate smoothing techniques used in N-gram models. (CO1) [UN]
+
+PART - B (8 Marks Questions)
+13. Evaluate the Centering Theory approach for anaphora resolution. (CO5) [EV] (8)
+14. Analyze coreference resolution and distinguish it from anaphora resolution. (CO5) [AN] (8)
+15. Explain the Cocke-Younger-Kasami (CYK) algorithm for CFG parsing with an illustrative trace. (CO3) [UN] (8)
+16. Demonstrate the Early Parser algorithm on an ambiguous sentence derivation. (CO3) [AP] (8)
+17. Explain Vector Space Models and TF-IDF weighting schemes in NLP. (CO2) [UN] (8)
+18. Discuss Viterbi algorithm for decoding in Part-of-Speech tagging. (CO2) [AP] (8)
+
+PART - C (16 Marks Questions)
+19. Discuss the concept of Shallow Parsing and compare it with Full Parsing in NLP applications. (CO3) [AN] (16)
+20. Analyze the role of Context-Free Grammars (CFGs) in syntactic analysis and explain their importance in Natural Language Processing. (CO3) [AN] (8)
+21. Critically evaluate the effectiveness of Grammar Rules for English in computational language processing. (CO3) [EV] (8)
+22. Design a complete semantic NLP system integrating FOL, description logics, WSD, thematic roles, and word similarity measures. (CO4) [AP] (16)
+23. Formulate an end-to-end Discourse Parsing pipeline using lexical cohesion and rhetorical structure theory. (CO5) [CR] (16)
+24. Develop a comparative analysis of probabilistic parsers (PCFG) versus transition-based dependency parsers. (CO3) [AN] (16)

@@ -1,0 +1,18 @@
+SUBJECT CODE: AI3001
+SUBJECT NAME: ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+REGULATION: 2023 AUTONOMOUS
+
+UNIT I: PROBLEM SOLVING & SEARCH ALGORITHMS
+Introduction to AI, Agents and Environments, PEAS specification. Uninformed search strategies: BFS, DFS, Uniform Cost Search. Informed search: A* search, Heuristics admissibility and consistency, Hill Climbing, Adversarial search: Minimax, Alpha-Beta pruning.
+
+UNIT II: KNOWLEDGE REPRESENTATION & REASONING
+Logical Agents, Propositional Logic, First-Order Logic (FOL), Syntax and Semantics, Forward and Backward Chaining, Resolution refutation, Unification algorithm, Ontological engineering, Handling uncertainty with Bayesian Networks.
+
+UNIT III: SUPERVISED & UNSUPERVISED LEARNING
+Machine Learning taxonomy. Linear regression, Logistic regression. Decision Trees, ID3 algorithm, Entropy and Information Gain. Naive Bayes classifier. Support Vector Machines. Clustering: K-Means, Hierarchical clustering, Principal Component Analysis (PCA).
+
+UNIT IV: DEEP LEARNING & NEURAL NETWORKS
+Biological vs Artificial Neurons, Perceptron, Activation functions. Multi-Layer Perceptron (MLP), Backpropagation algorithm with gradient descent. Regularization techniques: Dropout, L1/L2 penalties. Convolutional Neural Networks (CNN) for image analysis.
+
+UNIT V: REINFORCEMENT LEARNING & ETHICS
+Markov Decision Process (MDP), Bellman Optimality Equations, Temporal Difference Learning, Q-Learning. Ethical challenges in AI: Bias, Fairness, Interpretability, and Responsible AI deployments.

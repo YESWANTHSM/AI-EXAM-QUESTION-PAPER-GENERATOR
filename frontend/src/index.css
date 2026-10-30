@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Roboto Slab', Georgia, serif;
+  --font-body: 'Source Sans 3', 'Segoe UI', Tahoma, sans-serif;
+  --font-sans: 'Source Sans 3', 'Segoe UI', Tahoma, sans-serif;
+  --font-serif: 'Roboto Slab', Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Jayam Automobiles Palette */
+  --color-rust: #c2571b;
+  --color-rust-hover: #a64612;
+  --color-rust-dark: #84340a;
+  --color-rust-light: #fdf5ef;
+
+  --color-charcoal: #1c1f24;
+  --color-charcoal-light: #282d34;
+  --color-charcoal-hover: #333a42;
+
+  --color-parchment: #f7f3ec;
+  --color-parchment-tint: #efe8dc;
+  --color-parchment-card: #ffffff;
+  --color-parchment-dark: #e2d8c7;
+
+  --color-ink: #2d3128;
+  --color-ink-muted: #5b6354;
+  --color-ink-faint: #8c9683;
+
+  --color-emerald: #2a6e3b;
+  --color-emerald-light: #eff7f1;
+}
+
+@layer base {
+  :root {
+    --font-heading: 'Roboto Slab', Georgia, serif;
+    --font-body: 'Source Sans 3', 'Segoe UI', Tahoma, sans-serif;
+    --color-rust: #c2571b;
+    --color-rust-dark: #84340a;
+    --color-charcoal: #1c1f24;
+    --color-parchment: #f7f3ec;
+    --color-parchment-tint: #efe8dc;
+    --color-parchment-card: #ffffff;
+    --color-ink: #2d3128;
+    --color-ink-muted: #5b6354;
+    --color-ink-faint: #8c9683;
+  }
+
+  body {
+    font-family: 'Source Sans 3', 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f7f3ec;
+    color: #2d3128;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', Georgia, serif;
+    color: #1c1f24;
+  }
+}
+
+/* Jayam Automobiles Tactile Ledger Design Components */
+.ledger-card {
+  background-color: #ffffff;
+  border: 2px solid #2d3128;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 #2d3128;
+}
+
+.ledger-card-tint {
+  background-color: #efe8dc;
+  border: 2px solid #2d3128;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 #2d3128;
+}
+
+.ledger-card-sm {
+  background-color: #ffffff;
+  border: 1.5px solid #2d3128;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 #2d3128;
+}
+
+.ledger-card-charcoal {
+  background-color: #1c1f24;
+  color: #f7f3ec;
+  border: 2px solid #2d3128;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 #2d3128;
+}
+
+.btn-rust {
+  background-color: #c2571b;
+  color: #ffffff;
+  border: 2px solid #2d3128;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 #2d3128;
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-weight: 600;
+  transition: all 0.12s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-rust:hover {
+  background-color: #a64612;
+}
+.btn-rust:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #2d3128;
+}
+.btn-rust:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: 2px 2px 0 #2d3128;
+}
+
+.btn-secondary {
+  background-color: #f7f3ec;
+  color: #1c1f24;
+  border: 1.5px solid #2d3128;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 #2d3128;
+  font-weight: 600;
+  transition: all 0.12s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-secondary:hover {
+  background-color: #efe8dc;
+}
+.btn-secondary:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #2d3128;
+}
+.btn-secondary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-charcoal {
+  background-color: #1c1f24;
+  color: #f7f3ec;
+  border: 2px solid #2d3128;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 #2d3128;
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-weight: 600;
+  transition: all 0.12s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-charcoal:hover {
+  background-color: #282d34;
+}
+.btn-charcoal:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #2d3128;
+}
+
+.input-ledger {
+  background-color: #ffffff;
+  color: #1c1f24;
+  border: 1.5px solid #2d3128;
+  border-radius: 4px;
+  box-shadow: 1px 1px 0 #2d3128;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.input-ledger:focus {
+  outline: none;
+  border-color: #c2571b;
+  box-shadow: 0 0 0 2px rgba(194, 87, 27, 0.25), 1px 1px 0 #2d3128;
+}
+
+.badge-rust {
+  background-color: #fdf5ef;
+  color: #84340a;
+  border: 1.5px solid #c2571b;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+}
+
+.badge-emerald {
+  background-color: #eff7f1;
+  color: #2a6e3b;
+  border: 1.5px solid #2a6e3b;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+}
+
+.badge-ink {
+  background-color: #efe8dc;
+  color: #2d3128;
+  border: 1.5px solid #2d3128;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+}
+
+/* Academic Exam Sheet Print Layout */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .exam-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+}
+
+/* Custom scrollbars with parchment & ink tones */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #efe8dc;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2baab;
+  border-radius: 4px;
+  border: 1px solid #2d3128;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c2571b;
+}
